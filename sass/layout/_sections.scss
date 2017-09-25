@@ -1,0 +1,75 @@
+section {
+    padding: 22px;
+    padding-top: 36px;
+}
+
+/* about duck */
+
+#about_duck {
+    background-color: $blue_duck;
+    margin: 0;
+}
+
+.article_img {
+    margin-top: 22px;
+}
+
+blockquote {
+    border-left-color: $white_duck;
+}
+
+.quote_footer {
+    color: $white_duck;
+}
+
+h4 {
+    display: inline;
+    color: $white_duck;
+    font-weight: 700;
+}
+
+ul.btn-group {
+    padding-left: 6px;
+}
+
+.list_btn {
+    margin: 6px;
+    background-color: $white_duck;
+    &:hover {
+        background-color: $blue_duck;   
+    }
+    &:hover a {
+        color: $white_duck; 
+    }
+    & > a {
+        color: black;
+        text-decoration: none; 
+    }
+}
+
+/* gallery */
+
+#gallery {
+    @extend #about_duck;
+    background-color: $yellow_duck;
+}
+
+/* about us */
+
+#about_us {
+    @extend #about_duck;
+}
+
+.about > h3, .about > p {
+    color: $white_duck;
+}
+
+/* contact */
+
+#contact {
+    background-color: $yellow_duck;
+}
+
+
+
+

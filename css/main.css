@@ -1,0 +1,76 @@
+.affix {
+  z-index: 1;
+  top: 0;
+  width: 100%; }
+
+.header_top {
+  background: rgba(250, 76, 5, 0.7);
+  min-height: 80px; }
+
+.my_nav_styling .navbar-nav > li > a {
+  color: rgba(238, 238, 238, 0.7); }
+  .my_nav_styling .navbar-nav > li > a:hover {
+    color: rgba(254, 199, 44, 0.7); }
+
+.my_nav_styling {
+  border-radius: 0%; }
+  .my_nav_styling.affix-top {
+    margin: 0; }
+
+section {
+  padding: 22px;
+  padding-top: 36px; }
+
+/* about duck */
+#about_duck, #gallery, #about_us {
+  background-color: rgba(0, 104, 97, 0.7);
+  margin: 0; }
+
+.article_img {
+  margin-top: 22px; }
+
+blockquote {
+  border-left-color: rgba(238, 238, 238, 0.7); }
+
+.quote_footer {
+  color: rgba(238, 238, 238, 0.7); }
+
+h4 {
+  display: inline;
+  color: rgba(238, 238, 238, 0.7);
+  font-weight: 700; }
+
+ul.btn-group {
+  padding-left: 6px; }
+
+.list_btn {
+  margin: 6px;
+  background-color: rgba(238, 238, 238, 0.7); }
+  .list_btn:hover {
+    background-color: rgba(0, 104, 97, 0.7); }
+  .list_btn:hover a {
+    color: rgba(238, 238, 238, 0.7); }
+  .list_btn > a {
+    color: black;
+    text-decoration: none; }
+
+/* gallery */
+#gallery {
+  background-color: rgba(254, 199, 44, 0.7); }
+
+/* about us */
+.about > h3, .about > p {
+  color: rgba(238, 238, 238, 0.7); }
+
+/* contact */
+#contact {
+  background-color: rgba(254, 199, 44, 0.7); }
+
+.my_footer {
+  background-color: #000000;
+  color: rgba(238, 238, 238, 0.7);
+  text-align: center;
+  margin: 0;
+  padding: 6px; }
+
+/*# sourceMappingURL=main.css.map */

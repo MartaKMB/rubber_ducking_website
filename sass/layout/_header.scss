@@ -1,0 +1,25 @@
+.affix {
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+
+.header_top {
+    background: $orange_duck;
+    min-height: 80px;
+}
+
+.my_nav_styling .navbar-nav>li>a {
+    color: $white_duck;
+    &:hover {
+        color: $yellow_duck;
+    }
+}
+
+.my_nav_styling {
+    border-radius: 0%;
+    &.affix-top {
+    margin: 0;
+}
+}
+
